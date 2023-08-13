@@ -1,0 +1,78 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+h1 {
+  text-align: center;
+  font-size: 60px;
+}
+h2{
+  text-align: center;
+  font-size: 40px;
+  font-style: Lucida Calligraphy;
+}
+img {
+  width: 300px;
+  height: 300px;
+}
+.container h3 {
+  text-align: center;
+  color: blueviolet;
+}
+
+h3 {
+  text-align: center;
+  color: black;
+}
+footer {
+  position: relative;
+  margin-top: 150px;
+}
+.btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+button{
+  padding: 9px 25px;
+  border-radius: 25px;
+  background-color: rgb(64, 64, 253);
+  font-size: 25px;
+  color: aliceblue;
+  font-style: lucida;
+}
+button:hover{
+  background-color: rgb(1, 8, 13);
+
+}
+@media (min-width: 300px) and (max-width: 500px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    gap:0;
+  }
+  img {
+    width: 225px;
+    height: 225px;
+    padding: 10px;
+  }
+ h1{
+    font-size: 45px;
+ }
+ footer {
+    position: relative;
+    margin-top: 40px;
+  }
+
+}
