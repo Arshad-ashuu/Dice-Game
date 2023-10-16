@@ -13,11 +13,11 @@ document.querySelectorAll("img")[1].setAttribute("src",randomDice2);
 
 if (randomNumber>randomNumber2) {
     document.querySelector("h1").innerHTML="player 1 wins! ⛳";
-alert("player 1 won!");
+
 } 
 else if (randomNumber2>randomNumber){
     document.querySelector("h1").innerHTML="player 2 wins! ⛳";
-alert("player 2 wins!");
+
 }
 else{
     document.querySelector("h1").innerHTML="Draw!";
